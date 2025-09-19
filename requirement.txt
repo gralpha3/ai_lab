@@ -1,0 +1,20 @@
+cat>requirements.txt<<EOF
+beautifulsoup4==4.13.3
+certifi==2020.6.20
+charset-normalizer==3.4.1
+idna==3.3
+requests==2.32.3
+soupsieve==2.6
+urllib3==2.3.0
+transformers==4.48.3
+numpy==1.24.2
+scipy==1.15.1
+torch==2.6.0
+jinja2==3.0.3
+PyPDF2==2.11.2
+langchain==0.0.123
+torchaudio==2.6.0 # 2.1.0 has problems
+soundfile==0.13.1
+accelerate==1.8.1
+einops==0.8.1
+EOF
